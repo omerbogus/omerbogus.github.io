@@ -1,0 +1,73 @@
+/* Genel stil ayarları */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Üst kısım */
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #e0e0e0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  color: #2a4d69;
+}
+
+nav a {
+  color: #2a4d69;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #4b86b4;
+}
+
+/* Bölümler */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  color: #2a4d69;
+  border-bottom: 2px solid #4b86b4;
+  padding-bottom: 5px;
+}
+
+/* Proje kutuları */
+.project {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 4px solid #4b86b4;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background-color: #2a4d69;
+  color: white;
+  margin-top: 30px;
+}
